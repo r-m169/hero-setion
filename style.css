@@ -51,7 +51,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1; 
-    /* margin-top: 10px; */
+    margin-top: 100px;
 }
 .leftside pre{
     font-size: 50px;
@@ -67,10 +67,10 @@
     width: 150px;
 }
 .rightside {
-    flex: 1; /* Takes up the second half of the grey-div */
+    flex: 1; 
     display: flex;
-    justify-content: center; /* Center content horizontally within the rightside div */
-    align-items: center; /* Center content vertically within the rightside div */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .rightside img {
@@ -88,13 +88,13 @@
     .leftside {
         width: 100%; 
         text-align: center; 
-        align-items: center; 
+        align-items: center;
     }
 
 
     .leftside p,
     .leftside a {
-        transform: translate(20%,-10%);
+        transform: translate(20%,-221%);
         text-align: center; 
     }
   
@@ -102,8 +102,9 @@
         margin-left: 100px;
     }
     .leftside pre{
-        transform: translate(25%,-10%);
+        transform: translate(30%,-113%);
         text-align: start;
+        font-size: 40px;
     }
 }
 
